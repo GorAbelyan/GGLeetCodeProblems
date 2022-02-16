@@ -45,5 +45,28 @@ namespace LeetCodeProblems
             }
             return result;
         }
+        public int[] Shuffle(int[] nums, int n)
+        {
+            var result = new int[nums.Length];
+            bool odd = false;
+            int j = 0;
+            int k = n;
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (odd)
+                {
+                    result[i] = nums[k++];
+                }
+                else
+                {
+                    result[i] = nums[j++];
+                }
+                odd = !odd;
+            }
+
+            return result;
+
+        }
     }
 }
