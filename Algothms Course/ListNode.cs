@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algothms_Course
+namespace Algorthms_Course
 {
     public class ListNode
     {
