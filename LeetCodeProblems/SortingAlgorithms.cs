@@ -84,7 +84,7 @@ namespace LeetCodeProblems
         }
         public int[] MergeSort(int[] array)
         {
-            PartitionMergeSort(array, 0, array.Length-1);
+            PartitionMergeSort(array, 0, array.Length - 1);
             return array;
         }
         public int[] QuickSort(int[] array, int left, int right)
@@ -130,7 +130,7 @@ namespace LeetCodeProblems
                 midPoint = (start + end) / 2;
                 PartitionMergeSort(array, start, midPoint);
                 PartitionMergeSort(array, midPoint + 1, end);
-                Merge(array, start, midPoint+1, end);
+                Merge(array, start, midPoint + 1, end);
             }
         }
         private void Merge(int[] numbers, int left, int mid, int right)
@@ -165,6 +165,4 @@ namespace LeetCodeProblems
             array[index1] = temp;
         }
     }
-
-
 }

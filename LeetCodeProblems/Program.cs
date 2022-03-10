@@ -52,16 +52,16 @@ namespace LeetCodeProblems
             // };
             //FloodFill(t,0,0,2);
 
-            var SortingAlgo = new SortingAlgorithms();
+            //var SortingAlgo = new SortingAlgorithms();
 
             // var babl = SortingAlgo.BableSort(new int[] { 9, 2, 1, 4, 5, 6, 12, 323, 45, 6, 55, 3 });
             // var insertion = SortingAlgo.InsertionSort(new int[] { 9, 2, 1, 4, 5, 6, 12, 323, 45, 6, 55, 3 });
             // var selection = SortingAlgo.SelectionSort(new int[] { 9, 2, 1, 4, 5, 6, 12, 323, 45, 6, 55, 3 });
             // var countingsort = SortingAlgo.CountingSort(new int[] { 9, 2, 1, 4, 5, 6, 12, 323, 45, 6, 55, 3 });
-             //var quickSort = SortingAlgo.QuickSort(new int[] { 9, 2, 1, 4, 5, 6, 12 },0,6);
-             var mergesort = SortingAlgo.MergeSort(new int[] { 9, 2, 1, 4 });
+            //var quickSort = SortingAlgo.QuickSort(new int[] { 9, 2, 1, 4, 5, 6, 12 },0,6);
+            // var mergesort = SortingAlgo.MergeSort(new int[] { 9, 2, 1, 4 });
 
-           
+
         }
         static public int Partition(int[] arr, int left, int right)
         {
