@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algothms_Course
+namespace Algorithms_Course
 {
     public class RecursionSection
     {
@@ -161,5 +161,6 @@ namespace Algothms_Course
             }
             result = 0;
         }
+
     }
 }
