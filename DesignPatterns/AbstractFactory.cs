@@ -66,7 +66,7 @@ namespace DesignPatterns
     }
 
 
-    //or Adult
+    //for Adult
     public class BLT : Sandwich
     {
     }

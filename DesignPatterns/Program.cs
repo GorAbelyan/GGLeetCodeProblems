@@ -7,7 +7,9 @@ namespace DesignPatterns
         static void Main(string[] args)
         {
            // FactoryMethod factoryMethod = new FactoryMethod();
-            AbstractFactory AbstractFactory = new AbstractFactory();
+            //AbstractFactory AbstractFactory = new AbstractFactory();
+            //Builder builder= new Builder();
+            Prototype prototype = new Prototype();
 
 
         }
